@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@RequestMapping("/billboard")
 @AllArgsConstructor
 public class BillboardController {
     private BillboardService billboardService;
